@@ -21,3 +21,6 @@ love6 = lambda a, b: a==6 or b==6 or a+b==6 or abs(a-b)==6
 
 #Exercise8
 in1to10 = lambda n, outside_mode: ((1 <= n <= 10) and not outside_mode) or ((1>=n or n >= 10) and outside_mode)
+
+#Exercise9
+near_ten = lambda num: (num % 10 <=2) or (8 <= num % 10 <=9)
