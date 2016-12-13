@@ -20,3 +20,4 @@ alarm_clock = lambda day, vacation: 'off' if vacation and (day==0 or day==6) els
 love6 = lambda a, b: a==6 or b==6 or a+b==6 or abs(a-b)==6
 
 #Exercise8
+in1to10 = lambda n, outside_mode: ((1 <= n <= 10) and not outside_mode) or ((1>=n or n >= 10) and outside_mode)
