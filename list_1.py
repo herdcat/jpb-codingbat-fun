@@ -23,7 +23,7 @@ reverse3 = lambda nums: nums[::-1]
 max_end3 = lambda nums: [nums[0]]*3 if nums[0]>=nums[-1] else [nums[-1]]*3
 
 #Exercise9
-#I'll come back to this one
+sum2 = lambda nums: sum(nums[:2])
 
 #Exercise10
 middle_way = lambda a, b: [a[1],b[1]]

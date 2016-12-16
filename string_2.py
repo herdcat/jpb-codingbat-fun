@@ -14,3 +14,4 @@ cat_dog = lambda str: str.count('cat') == str.count('dog')
 end_other = lambda a, b: a.lower()[-len(b):] == b.lower() if len(a) >= len(b) else b.lower()[-len(a):] == a.lower()
 
 #Exercise6
+xyz_there = lambda str: bool(str.replace('.xyz','').count('xyz'))

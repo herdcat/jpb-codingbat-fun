@@ -30,5 +30,3 @@ non_start = lambda a, b: "{0}{1}".format(a[1:],b[1:])
 
 #Exercise11
 left2 = lambda str: "{0}{1}".format(str[2:],str[:2])
-
-#Exercise12
