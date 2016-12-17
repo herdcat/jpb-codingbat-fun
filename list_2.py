@@ -8,7 +8,7 @@ big_diff = lambda nums: max(nums) - min(nums)
 centered_average = lambda nums: sum(sorted(nums)[1:-1])/len(sorted(nums)[1:-1])
 
 #Exercise4
-#Will come back to this
+sum13 = lambda nums: sum([x for i,x in enumerate(nums) if (nums[i-1]!=13 and nums[i]!=13 and i!=0) or ((nums[i]!=13) and i==0)])
 
 #Exercise5
 #Will come back to this

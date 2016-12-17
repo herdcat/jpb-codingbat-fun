@@ -8,7 +8,7 @@ count_hi = lambda str: str.count('hi')
 cat_dog = lambda str: str.count('cat') == str.count('dog')
 
 #Exercise4
-#Coming back to this later
+count_code = lambda str: len([x for i,x in enumerate(str) if (i < len(str)-3) and ((str[i:i+2]=='co') and str[i+3]=='e')])
 
 #Exercise5
 end_other = lambda a, b: a.lower()[-len(b):] == b.lower() if len(a) >= len(b) else b.lower()[-len(a):] == a.lower()

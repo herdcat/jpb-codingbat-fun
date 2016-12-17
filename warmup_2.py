@@ -8,10 +8,10 @@ front_times = lambda str, n: str*n if len(str)<=3 else str[0:3]*n
 string_bits = lambda str: "".join([x for i, x in enumerate(str) if i%2==0])
 
 #Exercise4
-#I'll get back to this
+string_splosion = lambda str: "".join([str[:i+1] for i, x in enumerate(str) if i < len(str)])
 
 #Exercise5
-#I'll get back to this
+last2 = lambda str: len([i for i,x in enumerate(str) if (str[i:i+2]==str[-2:])])-1 if len(str) > 0 else 0
 
 #Exercise6
 array_count9 = lambda nums: len([x for x in nums if x ==9])
