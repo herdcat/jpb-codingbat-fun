@@ -17,4 +17,4 @@ round_sum = lambda a, b, c: int(sum([round(float(x)/10)*10 for x in [a,b,c]]))
 close_far = lambda a, b, c: (abs(a-b) <=1 and abs(a-c) >=2 and abs(b-c) >=2 ) or ( abs(a-b) >=2 and abs(c-b) >=2 and abs(a-c) <=1 )
 
 #Exercise7
-#Will return to this
+make_chocolate = lambda small, big, goal: [[[[[-1,goal-(big*5)][goal-(big*5)<=small and goal-(big*5)>=0],goal-((goal/5)*5)][goal-((goal/5)*5)<=small and goal/5 <= big],goal-(goal/5)*5][goal < 5 and goal <= small],0][goal%5==0 and goal/5 <= big],goal][goal < 5 and goal <= small]
