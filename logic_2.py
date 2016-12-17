@@ -1,5 +1,5 @@
 #Exercise1
-#Figuring out how to do this in one line
+make_bricks = lambda small, big, goal: True if ((goal % 5 == 0 and goal/5<=big) or (goal <= small)) else [False,True][(((goal - (goal/5)*5) <= small) and ((goal/5) <= big)) or (((goal - (big*5)) <= small) and (goal - (big*5) >= 0))]
 
 #Exercise2
 lone_sum = lambda a, b, c: [[a,[b,[c,0][c==a or c==b]][b==a or b==c]][a==b or a==c],a+b+c][(a != b != c) and a != c]
