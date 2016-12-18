@@ -23,4 +23,4 @@ array_front9 = lambda nums: bool(len([x for x in nums if x ==9])) if len(nums) <
 array123 = lambda nums: set([1,2,3]).issubset(nums)
 
 #Exercise9
-#I'll get back to this
+string_match = lambda a, b: len([x for i,x in enumerate(a) if (a[i]==b[i]) and a[i-1]==b[i-1] and i<len(a) and i!=0]) if len(a) <= len(b) else len([x for i,x in enumerate(b) if (a[i]==b[i] and a[i-1]==b[i-1] and i<len(b) and i!=0)])
