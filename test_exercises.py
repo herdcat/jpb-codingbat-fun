@@ -84,3 +84,99 @@ class TestMyTestCases(unittest.TestCase):
         }
         for test in tests.values():
             self.assertEqual(self.cb_solutions().rotate_left3(test[0]),test[1])
+
+    def test_reverse3(self):
+        tests = {
+            'test0' : ([0, 1, 2], [2, 1, 0]),
+            'test1' : ([1, 2, 3], [3, 2, 1]),
+            'test2' : ([2, 3, 4], [4, 3, 2]),
+            'test3' : ([3, 4, 5], [5, 4, 3]),
+            'test4' : ([4, 5, 6], [6, 5, 4]),
+            'test5' : ([5, 6, 7], [7, 6, 5]),
+            'test6' : ([6, 7, 8], [8, 7, 6]),
+            'test7' : ([7, 8, 9], [9, 8, 7]),
+            'test8' : ([8, 9, 10], [10, 9, 8]),
+            'test9' : ([9, 10, 11], [11, 10, 9])
+        }
+        for test in tests.values():
+            self.assertEqual(self.cb_solutions().reverse3(test[0]),test[1])
+
+    def test_max_end3(self):
+        tests = {
+            'test0' : ([1, 2, 3], [3, 3, 3]),
+            'test1' : ([11, 5, 9], [11, 11, 11]),
+            'test2' : ([2, 11, 3], [3, 3, 3]),
+            'test3' : ([11, 3, 3], [11, 11, 11]),
+            'test4' : ([3, 11, 11], [11, 11, 11]),
+            'test5' : ([2, 2, 2], [2, 2, 2]),
+            'test6' : ([2, 11, 2], [2, 2, 2]),
+            'test7' : ([0, 0, 1], [1, 1, 1]),
+            'test8' : ([8, 9, 10], [10, 10, 10]),
+            'test9' : ([9, 10, 11], [11, 11, 11])
+        }
+        for test in tests.values():
+            self.assertEqual(self.cb_solutions().max_end3(test[0]),test[1])
+
+    def test_sum2(self):
+        tests = {
+            'test0' : ([1, 2, 3], 3),
+            'test1' : ([11, 5, 9], 16),
+            'test2' : ([2, 11, 3], 13),
+            'test3' : ([11, 3, 3], 14),
+            'test4' : ([3, 11, 11], 14),
+            'test5' : ([2, 2, 2], 4),
+            'test6' : ([2, 11, 2], 13),
+            'test7' : ([0, 0, 1], 0),
+            'test8' : ([8, 9, 10], 17),
+            'test9' : ([9, 10, 11], 19)
+        }
+        for test in tests.values():
+            self.assertEqual(self.cb_solutions().sum2(test[0]),test[1])
+
+    def test_middle_way(self):
+        tests = {
+            'test0' : ([1, 2, 3], [4, 5, 6], [2, 5]),
+            'test1' : ([7, 7, 7], [3, 8, 0], [7, 8]),
+            'test2' : ([5, 2, 9], [1, 4, 5], [2, 4]),
+            'test3' : ([1, 9, 7], [4, 8, 8], [9, 8]),
+            'test4' : ([1, 2, 3], [3, 1, 4], [2, 1]),
+            'test5' : ([1, 2, 3], [4, 1, 1], [2, 1]),
+            'test6' : ([2, 11, 2], [5, 2, 9], [11, 2]),
+            'test7' : ([0, 0, 1], [3, 8, 0], [0, 8]),
+            'test8' : ([8, 9, 10], [3, 1, 4], [9, 1]),
+            'test9' : ([9, 10, 11], [1, 2, 3], [10, 2])
+        }
+        for test in tests.values():
+            self.assertEqual(self.cb_solutions().middle_way(test[0],test[1]), test[2])
+
+    def test_make_ends(self):
+        tests = {
+            'test0' : ([1, 2, 3], [1, 3]),
+            'test1' : ([11, 5, 9], [11, 9]),
+            'test2' : ([2, 11, 3], [2, 3]),
+            'test3' : ([11, 3, 3], [11, 3]),
+            'test4' : ([3, 11, 11], [3, 11]),
+            'test5' : ([2, 2, 2], [2, 2]),
+            'test6' : ([2, 11, 2], [2, 2]),
+            'test7' : ([0, 0, 1], [0, 1]),
+            'test8' : ([8, 9, 10], [8, 10]),
+            'test9' : ([9, 10, 11], [9, 11])
+        }
+        for test in tests.values():
+            self.assertEqual(self.cb_solutions().make_ends(test[0]),test[1])
+
+    def test_has23(self):
+        tests = {
+            'test0' : ([2, 5], True),
+            'test1' : ([4, 3], True),
+            'test2' : ([4, 5], False),
+            'test3' : ([2, 2], True),
+            'test4' : ([3, 2], True),
+            'test5' : ([3, 3], True),
+            'test6' : ([7, 7], False),
+            'test7' : ([3, 9], True),
+            'test8' : ([9, 5], False),
+            'test9' : ([3, 5], True)
+        }
+        for test in tests.values():
+            self.assertEqual(self.cb_solutions().has23(test[0]),test[1])
