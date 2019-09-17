@@ -725,3 +725,105 @@ class TestMyTestCases(unittest.TestCase):
         # for test in tests.values():
         #     self.assertEqual(self.cb_solutions().left2(test[0]),test[1])
         self.assertTrue(True)
+
+    def test_double_char(self):
+        # tests = {
+        #     'test0' : ([0, 1, 2], 2),
+        #     'test1' : ([1, 2, 3], 2),
+        #     'test2' : ([2, 3, 4], 2),
+        #     'test3' : ([2, 4, 6, 8], 6),
+        #     'test4' : ([1, 3, 5, 7], 6),
+        #     'test5' : ([3, 1, 4], 3),
+        #     'test6' : ([1, 7, 2], 6),
+        #     'test7' : ([8, 6, 7], 2),
+        #     'test8' : ([5, 3], 2),
+        #     'test9' : ([0, 9], 9)
+        # }
+        # for test in tests.values():
+        #     self.assertEqual(self.cb_solutions().double_char(test[0]),test[1])
+        self.assertTrue(True)
+
+    def test_count_hi(self):
+        # tests = {
+        #     'test0' : ([0, 1, 2], 2),
+        #     'test1' : ([1, 2, 3], 2),
+        #     'test2' : ([2, 3, 4], 2),
+        #     'test3' : ([2, 4, 6, 8], 6),
+        #     'test4' : ([1, 3, 5, 7], 6),
+        #     'test5' : ([3, 1, 4], 3),
+        #     'test6' : ([1, 7, 2], 6),
+        #     'test7' : ([8, 6, 7], 2),
+        #     'test8' : ([5, 3], 2),
+        #     'test9' : ([0, 9], 9)
+        # }
+        # for test in tests.values():
+        #     self.assertEqual(self.cb_solutions().count_hi(test[0]),test[1])
+        self.assertTrue(True)
+
+    def test_cat_dog(self):
+        # tests = {
+        #     'test0' : ([0, 1, 2], 2),
+        #     'test1' : ([1, 2, 3], 2),
+        #     'test2' : ([2, 3, 4], 2),
+        #     'test3' : ([2, 4, 6, 8], 6),
+        #     'test4' : ([1, 3, 5, 7], 6),
+        #     'test5' : ([3, 1, 4], 3),
+        #     'test6' : ([1, 7, 2], 6),
+        #     'test7' : ([8, 6, 7], 2),
+        #     'test8' : ([5, 3], 2),
+        #     'test9' : ([0, 9], 9)
+        # }
+        # for test in tests.values():
+        #     self.assertEqual(self.cb_solutions().cat_dog(test[0]),test[1])
+        self.assertTrue(True)
+
+    def test_count_code(self):
+        # tests = {
+        #     'test0' : ([0, 1, 2], 2),
+        #     'test1' : ([1, 2, 3], 2),
+        #     'test2' : ([2, 3, 4], 2),
+        #     'test3' : ([2, 4, 6, 8], 6),
+        #     'test4' : ([1, 3, 5, 7], 6),
+        #     'test5' : ([3, 1, 4], 3),
+        #     'test6' : ([1, 7, 2], 6),
+        #     'test7' : ([8, 6, 7], 2),
+        #     'test8' : ([5, 3], 2),
+        #     'test9' : ([0, 9], 9)
+        # }
+        # for test in tests.values():
+        #     self.assertEqual(self.cb_solutions().count_code(test[0]),test[1])
+        self.assertTrue(True)
+
+    def test_end_other(self):
+        # tests = {
+        #     'test0' : ([0, 1, 2], 2),
+        #     'test1' : ([1, 2, 3], 2),
+        #     'test2' : ([2, 3, 4], 2),
+        #     'test3' : ([2, 4, 6, 8], 6),
+        #     'test4' : ([1, 3, 5, 7], 6),
+        #     'test5' : ([3, 1, 4], 3),
+        #     'test6' : ([1, 7, 2], 6),
+        #     'test7' : ([8, 6, 7], 2),
+        #     'test8' : ([5, 3], 2),
+        #     'test9' : ([0, 9], 9)
+        # }
+        # for test in tests.values():
+        #     self.assertEqual(self.cb_solutions().end_other(test[0]),test[1])
+        self.assertTrue(True)
+
+    def test_xyz_there(self):
+        # tests = {
+        #     'test0' : ([0, 1, 2], 2),
+        #     'test1' : ([1, 2, 3], 2),
+        #     'test2' : ([2, 3, 4], 2),
+        #     'test3' : ([2, 4, 6, 8], 6),
+        #     'test4' : ([1, 3, 5, 7], 6),
+        #     'test5' : ([3, 1, 4], 3),
+        #     'test6' : ([1, 7, 2], 6),
+        #     'test7' : ([8, 6, 7], 2),
+        #     'test8' : ([5, 3], 2),
+        #     'test9' : ([0, 9], 9)
+        # }
+        # for test in tests.values():
+        #     self.assertEqual(self.cb_solutions().xyz_there(test[0]),test[1])
+        self.assertTrue(True)
