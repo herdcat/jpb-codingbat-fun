@@ -180,3 +180,19 @@ class TestMyTestCases(unittest.TestCase):
         }
         for test in tests.values():
             self.assertEqual(self.cb_solutions().has23(test[0]),test[1])
+
+    def test_count_evens(self):
+        tests = {
+            'test0' : ([0, 1, 2], 2),
+            'test1' : ([1, 2, 3], 1),
+            'test2' : ([2, 3, 4], 2),
+            'test3' : ([2, 4, 6, 8], 4),
+            'test4' : ([1, 3, 5, 7], 0),
+            'test5' : ([3, 1, 4], 1),
+            'test6' : ([1, 7, 2], 1),
+            'test7' : ([8, 6, 7], 2),
+            'test8' : ([5, 3], 0),
+            'test9' : ([0, 9], 1)
+        }
+        for test in tests.values():
+            self.assertEqual(self.cb_solutions().count_evens(test[0]),test[1])
