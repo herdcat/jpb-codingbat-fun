@@ -827,3 +827,207 @@ class TestMyTestCases(unittest.TestCase):
         # for test in tests.values():
         #     self.assertEqual(self.cb_solutions().xyz_there(test[0]),test[1])
         self.assertTrue(True)
+
+    def test_sleep_in(self):
+        # tests = {
+        #     'test0' : ([0, 1, 2], 2),
+        #     'test1' : ([1, 2, 3], 2),
+        #     'test2' : ([2, 3, 4], 2),
+        #     'test3' : ([2, 4, 6, 8], 6),
+        #     'test4' : ([1, 3, 5, 7], 6),
+        #     'test5' : ([3, 1, 4], 3),
+        #     'test6' : ([1, 7, 2], 6),
+        #     'test7' : ([8, 6, 7], 2),
+        #     'test8' : ([5, 3], 2),
+        #     'test9' : ([0, 9], 9)
+        # }
+        # for test in tests.values():
+        #     self.assertEqual(self.cb_solutions().sleep_in(test[0]),test[1])
+        self.assertTrue(True)
+
+    def test_monkey_trouble(self):
+        # tests = {
+        #     'test0' : ([0, 1, 2], 2),
+        #     'test1' : ([1, 2, 3], 2),
+        #     'test2' : ([2, 3, 4], 2),
+        #     'test3' : ([2, 4, 6, 8], 6),
+        #     'test4' : ([1, 3, 5, 7], 6),
+        #     'test5' : ([3, 1, 4], 3),
+        #     'test6' : ([1, 7, 2], 6),
+        #     'test7' : ([8, 6, 7], 2),
+        #     'test8' : ([5, 3], 2),
+        #     'test9' : ([0, 9], 9)
+        # }
+        # for test in tests.values():
+        #     self.assertEqual(self.cb_solutions().monkey_trouble(test[0]),test[1])
+        self.assertTrue(True)
+
+    def test_sum_double(self):
+        # tests = {
+        #     'test0' : ([0, 1, 2], 2),
+        #     'test1' : ([1, 2, 3], 2),
+        #     'test2' : ([2, 3, 4], 2),
+        #     'test3' : ([2, 4, 6, 8], 6),
+        #     'test4' : ([1, 3, 5, 7], 6),
+        #     'test5' : ([3, 1, 4], 3),
+        #     'test6' : ([1, 7, 2], 6),
+        #     'test7' : ([8, 6, 7], 2),
+        #     'test8' : ([5, 3], 2),
+        #     'test9' : ([0, 9], 9)
+        # }
+        # for test in tests.values():
+        #     self.assertEqual(self.cb_solutions().sum_double(test[0]),test[1])
+        self.assertTrue(True)
+
+    def test_diff21(self):
+        # tests = {
+        #     'test0' : ([0, 1, 2], 2),
+        #     'test1' : ([1, 2, 3], 2),
+        #     'test2' : ([2, 3, 4], 2),
+        #     'test3' : ([2, 4, 6, 8], 6),
+        #     'test4' : ([1, 3, 5, 7], 6),
+        #     'test5' : ([3, 1, 4], 3),
+        #     'test6' : ([1, 7, 2], 6),
+        #     'test7' : ([8, 6, 7], 2),
+        #     'test8' : ([5, 3], 2),
+        #     'test9' : ([0, 9], 9)
+        # }
+        # for test in tests.values():
+        #     self.assertEqual(self.cb_solutions().diff21(test[0]),test[1])
+        self.assertTrue(True)
+
+    def test_parrot_trouble(self):
+        # tests = {
+        #     'test0' : ([0, 1, 2], 2),
+        #     'test1' : ([1, 2, 3], 2),
+        #     'test2' : ([2, 3, 4], 2),
+        #     'test3' : ([2, 4, 6, 8], 6),
+        #     'test4' : ([1, 3, 5, 7], 6),
+        #     'test5' : ([3, 1, 4], 3),
+        #     'test6' : ([1, 7, 2], 6),
+        #     'test7' : ([8, 6, 7], 2),
+        #     'test8' : ([5, 3], 2),
+        #     'test9' : ([0, 9], 9)
+        # }
+        # for test in tests.values():
+        #     self.assertEqual(self.cb_solutions().parrot_trouble(test[0]),test[1])
+        self.assertTrue(True)
+
+    def test_makes10(self):
+        # tests = {
+        #     'test0' : ([0, 1, 2], 2),
+        #     'test1' : ([1, 2, 3], 2),
+        #     'test2' : ([2, 3, 4], 2),
+        #     'test3' : ([2, 4, 6, 8], 6),
+        #     'test4' : ([1, 3, 5, 7], 6),
+        #     'test5' : ([3, 1, 4], 3),
+        #     'test6' : ([1, 7, 2], 6),
+        #     'test7' : ([8, 6, 7], 2),
+        #     'test8' : ([5, 3], 2),
+        #     'test9' : ([0, 9], 9)
+        # }
+        # for test in tests.values():
+        #     self.assertEqual(self.cb_solutions().makes10(test[0]),test[1])
+        self.assertTrue(True)
+
+    def test_near_hundred(self):
+        # tests = {
+        #     'test0' : ([0, 1, 2], 2),
+        #     'test1' : ([1, 2, 3], 2),
+        #     'test2' : ([2, 3, 4], 2),
+        #     'test3' : ([2, 4, 6, 8], 6),
+        #     'test4' : ([1, 3, 5, 7], 6),
+        #     'test5' : ([3, 1, 4], 3),
+        #     'test6' : ([1, 7, 2], 6),
+        #     'test7' : ([8, 6, 7], 2),
+        #     'test8' : ([5, 3], 2),
+        #     'test9' : ([0, 9], 9)
+        # }
+        # for test in tests.values():
+        #     self.assertEqual(self.cb_solutions().near_hundred(test[0]),test[1])
+        self.assertTrue(True)
+
+    def test_pos_neg(self):
+        # tests = {
+        #     'test0' : ([0, 1, 2], 2),
+        #     'test1' : ([1, 2, 3], 2),
+        #     'test2' : ([2, 3, 4], 2),
+        #     'test3' : ([2, 4, 6, 8], 6),
+        #     'test4' : ([1, 3, 5, 7], 6),
+        #     'test5' : ([3, 1, 4], 3),
+        #     'test6' : ([1, 7, 2], 6),
+        #     'test7' : ([8, 6, 7], 2),
+        #     'test8' : ([5, 3], 2),
+        #     'test9' : ([0, 9], 9)
+        # }
+        # for test in tests.values():
+        #     self.assertEqual(self.cb_solutions().pos_neg(test[0]),test[1])
+        self.assertTrue(True)
+
+    def test_not_string(self):
+        # tests = {
+        #     'test0' : ([0, 1, 2], 2),
+        #     'test1' : ([1, 2, 3], 2),
+        #     'test2' : ([2, 3, 4], 2),
+        #     'test3' : ([2, 4, 6, 8], 6),
+        #     'test4' : ([1, 3, 5, 7], 6),
+        #     'test5' : ([3, 1, 4], 3),
+        #     'test6' : ([1, 7, 2], 6),
+        #     'test7' : ([8, 6, 7], 2),
+        #     'test8' : ([5, 3], 2),
+        #     'test9' : ([0, 9], 9)
+        # }
+        # for test in tests.values():
+        #     self.assertEqual(self.cb_solutions().not_string(test[0]),test[1])
+        self.assertTrue(True)
+
+    def test_missing_char(self):
+        # tests = {
+        #     'test0' : ([0, 1, 2], 2),
+        #     'test1' : ([1, 2, 3], 2),
+        #     'test2' : ([2, 3, 4], 2),
+        #     'test3' : ([2, 4, 6, 8], 6),
+        #     'test4' : ([1, 3, 5, 7], 6),
+        #     'test5' : ([3, 1, 4], 3),
+        #     'test6' : ([1, 7, 2], 6),
+        #     'test7' : ([8, 6, 7], 2),
+        #     'test8' : ([5, 3], 2),
+        #     'test9' : ([0, 9], 9)
+        # }
+        # for test in tests.values():
+        #     self.assertEqual(self.cb_solutions().missing_char(test[0]),test[1])
+        self.assertTrue(True)
+
+    def test_front_back(self):
+        # tests = {
+        #     'test0' : ([0, 1, 2], 2),
+        #     'test1' : ([1, 2, 3], 2),
+        #     'test2' : ([2, 3, 4], 2),
+        #     'test3' : ([2, 4, 6, 8], 6),
+        #     'test4' : ([1, 3, 5, 7], 6),
+        #     'test5' : ([3, 1, 4], 3),
+        #     'test6' : ([1, 7, 2], 6),
+        #     'test7' : ([8, 6, 7], 2),
+        #     'test8' : ([5, 3], 2),
+        #     'test9' : ([0, 9], 9)
+        # }
+        # for test in tests.values():
+        #     self.assertEqual(self.cb_solutions().front_back(test[0]),test[1])
+        self.assertTrue(True)
+
+    def test_front3(self):
+        # tests = {
+        #     'test0' : ([0, 1, 2], 2),
+        #     'test1' : ([1, 2, 3], 2),
+        #     'test2' : ([2, 3, 4], 2),
+        #     'test3' : ([2, 4, 6, 8], 6),
+        #     'test4' : ([1, 3, 5, 7], 6),
+        #     'test5' : ([3, 1, 4], 3),
+        #     'test6' : ([1, 7, 2], 6),
+        #     'test7' : ([8, 6, 7], 2),
+        #     'test8' : ([5, 3], 2),
+        #     'test9' : ([0, 9], 9)
+        # }
+        # for test in tests.values():
+        #     self.assertEqual(self.cb_solutions().front3(test[0]),test[1])
+        self.assertTrue(True)
