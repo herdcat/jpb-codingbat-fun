@@ -1031,3 +1031,156 @@ class TestMyTestCases(unittest.TestCase):
         # for test in tests.values():
         #     self.assertEqual(self.cb_solutions().front3(test[0]),test[1])
         self.assertTrue(True)
+
+    def test_string_times(self):
+        # tests = {
+        #     'test0' : ([0, 1, 2], 2),
+        #     'test1' : ([1, 2, 3], 2),
+        #     'test2' : ([2, 3, 4], 2),
+        #     'test3' : ([2, 4, 6, 8], 6),
+        #     'test4' : ([1, 3, 5, 7], 6),
+        #     'test5' : ([3, 1, 4], 3),
+        #     'test6' : ([1, 7, 2], 6),
+        #     'test7' : ([8, 6, 7], 2),
+        #     'test8' : ([5, 3], 2),
+        #     'test9' : ([0, 9], 9)
+        # }
+        # for test in tests.values():
+        #     self.assertEqual(self.cb_solutions().string_times(test[0]),test[1])
+        self.assertTrue(True)
+
+    def test_front_times(self):
+        # tests = {
+        #     'test0' : ([0, 1, 2], 2),
+        #     'test1' : ([1, 2, 3], 2),
+        #     'test2' : ([2, 3, 4], 2),
+        #     'test3' : ([2, 4, 6, 8], 6),
+        #     'test4' : ([1, 3, 5, 7], 6),
+        #     'test5' : ([3, 1, 4], 3),
+        #     'test6' : ([1, 7, 2], 6),
+        #     'test7' : ([8, 6, 7], 2),
+        #     'test8' : ([5, 3], 2),
+        #     'test9' : ([0, 9], 9)
+        # }
+        # for test in tests.values():
+        #     self.assertEqual(self.cb_solutions().front_times(test[0]),test[1])
+        self.assertTrue(True)
+
+    def test_string_bits(self):
+        # tests = {
+        #     'test0' : ([0, 1, 2], 2),
+        #     'test1' : ([1, 2, 3], 2),
+        #     'test2' : ([2, 3, 4], 2),
+        #     'test3' : ([2, 4, 6, 8], 6),
+        #     'test4' : ([1, 3, 5, 7], 6),
+        #     'test5' : ([3, 1, 4], 3),
+        #     'test6' : ([1, 7, 2], 6),
+        #     'test7' : ([8, 6, 7], 2),
+        #     'test8' : ([5, 3], 2),
+        #     'test9' : ([0, 9], 9)
+        # }
+        # for test in tests.values():
+        #     self.assertEqual(self.cb_solutions().string_bits(test[0]),test[1])
+        self.assertTrue(True)
+
+    def test_string_splosion(self):
+        # tests = {
+        #     'test0' : ([0, 1, 2], 2),
+        #     'test1' : ([1, 2, 3], 2),
+        #     'test2' : ([2, 3, 4], 2),
+        #     'test3' : ([2, 4, 6, 8], 6),
+        #     'test4' : ([1, 3, 5, 7], 6),
+        #     'test5' : ([3, 1, 4], 3),
+        #     'test6' : ([1, 7, 2], 6),
+        #     'test7' : ([8, 6, 7], 2),
+        #     'test8' : ([5, 3], 2),
+        #     'test9' : ([0, 9], 9)
+        # }
+        # for test in tests.values():
+        #     self.assertEqual(self.cb_solutions().string_splosion(test[0]),test[1])
+        self.assertTrue(True)
+
+    def test_last2(self):
+        # tests = {
+        #     'test0' : ([0, 1, 2], 2),
+        #     'test1' : ([1, 2, 3], 2),
+        #     'test2' : ([2, 3, 4], 2),
+        #     'test3' : ([2, 4, 6, 8], 6),
+        #     'test4' : ([1, 3, 5, 7], 6),
+        #     'test5' : ([3, 1, 4], 3),
+        #     'test6' : ([1, 7, 2], 6),
+        #     'test7' : ([8, 6, 7], 2),
+        #     'test8' : ([5, 3], 2),
+        #     'test9' : ([0, 9], 9)
+        # }
+        # for test in tests.values():
+        #     self.assertEqual(self.cb_solutions().last2(test[0]),test[1])
+        self.assertTrue(True)
+
+    def test_array_count9(self):
+        # tests = {
+        #     'test0' : ([0, 1, 2], 2),
+        #     'test1' : ([1, 2, 3], 2),
+        #     'test2' : ([2, 3, 4], 2),
+        #     'test3' : ([2, 4, 6, 8], 6),
+        #     'test4' : ([1, 3, 5, 7], 6),
+        #     'test5' : ([3, 1, 4], 3),
+        #     'test6' : ([1, 7, 2], 6),
+        #     'test7' : ([8, 6, 7], 2),
+        #     'test8' : ([5, 3], 2),
+        #     'test9' : ([0, 9], 9)
+        # }
+        # for test in tests.values():
+        #     self.assertEqual(self.cb_solutions().array_count9(test[0]),test[1])
+        self.assertTrue(True)
+
+    def test_array_front9(self):
+        # tests = {
+        #     'test0' : ([0, 1, 2], 2),
+        #     'test1' : ([1, 2, 3], 2),
+        #     'test2' : ([2, 3, 4], 2),
+        #     'test3' : ([2, 4, 6, 8], 6),
+        #     'test4' : ([1, 3, 5, 7], 6),
+        #     'test5' : ([3, 1, 4], 3),
+        #     'test6' : ([1, 7, 2], 6),
+        #     'test7' : ([8, 6, 7], 2),
+        #     'test8' : ([5, 3], 2),
+        #     'test9' : ([0, 9], 9)
+        # }
+        # for test in tests.values():
+        #     self.assertEqual(self.cb_solutions().array_front9(test[0]),test[1])
+        self.assertTrue(True)
+
+    def test_array123(self):
+        # tests = {
+        #     'test0' : ([0, 1, 2], 2),
+        #     'test1' : ([1, 2, 3], 2),
+        #     'test2' : ([2, 3, 4], 2),
+        #     'test3' : ([2, 4, 6, 8], 6),
+        #     'test4' : ([1, 3, 5, 7], 6),
+        #     'test5' : ([3, 1, 4], 3),
+        #     'test6' : ([1, 7, 2], 6),
+        #     'test7' : ([8, 6, 7], 2),
+        #     'test8' : ([5, 3], 2),
+        #     'test9' : ([0, 9], 9)
+        # }
+        # for test in tests.values():
+        #     self.assertEqual(self.cb_solutions().array123(test[0]),test[1])
+        self.assertTrue(True)
+
+    def test_string_match(self):
+        # tests = {
+        #     'test0' : ([0, 1, 2], 2),
+        #     'test1' : ([1, 2, 3], 2),
+        #     'test2' : ([2, 3, 4], 2),
+        #     'test3' : ([2, 4, 6, 8], 6),
+        #     'test4' : ([1, 3, 5, 7], 6),
+        #     'test5' : ([3, 1, 4], 3),
+        #     'test6' : ([1, 7, 2], 6),
+        #     'test7' : ([8, 6, 7], 2),
+        #     'test8' : ([5, 3], 2),
+        #     'test9' : ([0, 9], 9)
+        # }
+        # for test in tests.values():
+        #     self.assertEqual(self.cb_solutions().string_match(test[0]),test[1])
+        self.assertTrue(True)
