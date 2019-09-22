@@ -42,12 +42,13 @@ class Solutions(object):
     big_diff = lambda self, nums: max(nums) - min(nums)
 
     #Exercise3
-    centered_average = lambda self, nums: sum(sorted(nums)[1:-1])/len(sorted(nums)[1:-1])
+    centered_average = lambda self, nums: int(sum(sorted(nums)[1:-1]))/len(sorted(nums)[1:-1])
 
     #Exercise4
     sum13 = lambda self, nums: sum([x for i,x in enumerate(nums) if (nums[i-1]!=13 and nums[i]!=13 and i!=0) or ((nums[i]!=13) and i==0)])
 
     #Exercise5
+    # sum67 - lambda self, nums
     #Will come back to this
 
     #Exercise6
