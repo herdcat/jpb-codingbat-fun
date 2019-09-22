@@ -330,89 +330,82 @@ class TestMyTestCases(unittest.TestCase):
             self.assertEqual(self.cb_solutions().caught_speeding(test[0][0],test[0][1]),test[1])
 
     def test_sorta_sum(self):
-        # tests = {
-        #     'test0' : ([0, 1, 2], 2),
-        #     'test1' : ([1, 2, 3], 2),
-        #     'test2' : ([2, 3, 4], 2),
-        #     'test3' : ([2, 4, 6, 8], 6),
-        #     'test4' : ([1, 3, 5, 7], 6),
-        #     'test5' : ([3, 1, 4], 3),
-        #     'test6' : ([1, 7, 2], 6),
-        #     'test7' : ([8, 6, 7], 2),
-        #     'test8' : ([5, 3], 2),
-        #     'test9' : ([0, 9], 9)
-        # }
-        # for test in tests.values():
-        #     self.assertEqual(self.cb_solutions().sorta_sum(test[0]),test[1])
-        self.assertTrue(True)
+        tests = {
+            'test0' : ((3, 4), 7),
+            'test1' : ((9, 4), 20),
+            'test2' : ((10, 11), 21),
+            'test3' : ((12, -3), 9),
+            'test4' : ((-3, 12), 9),
+            'test5' : ((4, 5), 9),
+            'test6' : ((4, 6), 20),
+            'test7' : ((14, 7), 21),
+            'test8' : ((14, 6), 20)
+        }
+        for test in tests.values():
+            self.assertEqual(self.cb_solutions().sorta_sum(test[0][0],test[0][1]),test[1])
 
     def test_alarm_clock(self):
-        # tests = {
-        #     'test0' : ([0, 1, 2], 2),
-        #     'test1' : ([1, 2, 3], 2),
-        #     'test2' : ([2, 3, 4], 2),
-        #     'test3' : ([2, 4, 6, 8], 6),
-        #     'test4' : ([1, 3, 5, 7], 6),
-        #     'test5' : ([3, 1, 4], 3),
-        #     'test6' : ([1, 7, 2], 6),
-        #     'test7' : ([8, 6, 7], 2),
-        #     'test8' : ([5, 3], 2),
-        #     'test9' : ([0, 9], 9)
-        # }
-        # for test in tests.values():
-        #     self.assertEqual(self.cb_solutions().alarm_clock(test[0]),test[1])
-        self.assertTrue(True)
+        tests = {
+            'test0' : ((1, False), '7:00'),
+            'test1' : ((5, False), '7:00'),
+            'test2' : ((0, False), '10:00'),
+            'test3' : ((6, False), '10:00'),
+            'test4' : ((0, True), 'off'),
+            'test5' : ((6, True), 'off'),
+            'test6' : ((1, True), '10:00'),
+            'test7' : ((3, True), '10:00'),
+            'test8' : ((5, True), '10:00')
+        }
+        for test in tests.values():
+            self.assertEqual(self.cb_solutions().alarm_clock(test[0][0],test[0][1]),test[1])
 
     def test_love6(self):
-        # tests = {
-        #     'test0' : ([0, 1, 2], 2),
-        #     'test1' : ([1, 2, 3], 2),
-        #     'test2' : ([2, 3, 4], 2),
-        #     'test3' : ([2, 4, 6, 8], 6),
-        #     'test4' : ([1, 3, 5, 7], 6),
-        #     'test5' : ([3, 1, 4], 3),
-        #     'test6' : ([1, 7, 2], 6),
-        #     'test7' : ([8, 6, 7], 2),
-        #     'test8' : ([5, 3], 2),
-        #     'test9' : ([0, 9], 9)
-        # }
-        # for test in tests.values():
-        #     self.assertEqual(self.cb_solutions().love6(test[0]),test[1])
-        self.assertTrue(True)
+        tests = {
+            'test0' : ((6, 4), True),
+            'test1' : ((4, 5), False),
+            'test2' : ((1, 5), True),
+            'test3' : ((1, 6), True),
+            'test4' : ((1, 8), False),
+            'test5' : ((1, 7), True),
+            'test6' : ((7, 5), False),
+            'test7' : ((8, 2), True),
+            'test8' : ((6, 6), True),
+            'test9' : ((-6, 2), False)
+        }
+        for test in tests.values():
+            self.assertEqual(self.cb_solutions().love6(test[0][0],test[0][1]),test[1])
 
     def test_in1to10(self):
-        # tests = {
-        #     'test0' : ([0, 1, 2], 2),
-        #     'test1' : ([1, 2, 3], 2),
-        #     'test2' : ([2, 3, 4], 2),
-        #     'test3' : ([2, 4, 6, 8], 6),
-        #     'test4' : ([1, 3, 5, 7], 6),
-        #     'test5' : ([3, 1, 4], 3),
-        #     'test6' : ([1, 7, 2], 6),
-        #     'test7' : ([8, 6, 7], 2),
-        #     'test8' : ([5, 3], 2),
-        #     'test9' : ([0, 9], 9)
-        # }
-        # for test in tests.values():
-        #     self.assertEqual(self.cb_solutions().in1to10(test[0]),test[1])
-        self.assertTrue(True)
+        tests = {
+            'test0' : ((5, False), True),
+            'test1' : ((11, False), False),
+            'test2' : ((11, True), True),
+            'test3' : ((10, False), True),
+            'test4' : ((10, True), True),
+            'test5' : ((9, False), True),
+            'test6' : ((9, True), False),
+            'test7' : ((1, False), True),
+            'test8' : ((1, True), True),
+            'test9' : ((0, False), False)
+        }
+        for test in tests.values():
+            self.assertEqual(self.cb_solutions().in1to10(test[0][0],test[0][1]),test[1])
 
     def test_near_ten(self):
-        # tests = {
-        #     'test0' : ([0, 1, 2], 2),
-        #     'test1' : ([1, 2, 3], 2),
-        #     'test2' : ([2, 3, 4], 2),
-        #     'test3' : ([2, 4, 6, 8], 6),
-        #     'test4' : ([1, 3, 5, 7], 6),
-        #     'test5' : ([3, 1, 4], 3),
-        #     'test6' : ([1, 7, 2], 6),
-        #     'test7' : ([8, 6, 7], 2),
-        #     'test8' : ([5, 3], 2),
-        #     'test9' : ([0, 9], 9)
-        # }
-        # for test in tests.values():
-        #     self.assertEqual(self.cb_solutions().near_ten(test[0]),test[1])
-        self.assertTrue(True)
+        tests = {
+            'test0' : (12, True),
+            'test1' : (17, False),
+            'test2' : (19, True),
+            'test3' : (31, True),
+            'test4' : (6, False),
+            'test5' : (10, True),
+            'test6' : (11, True),
+            'test7' : (21, True),
+            'test8' : (22, True),
+            'test9' : (23, False)
+        }
+        for test in tests.values():
+            self.assertEqual(self.cb_solutions().near_ten(test[0]),test[1])
 
     def test_make_bricks(self):
         # tests = {
